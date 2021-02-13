@@ -1,0 +1,9 @@
+[submodule "admin-dashboard"]
+	path = admin-dashboard
+	url = https://github.com/AlexandraDonchenko/admin-dashboard.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/MatthieuBonnardot/sesame-backend.git
+[submodule "native-app"]
+	path = native-app
+	url = https://github.com/garmobal/sesame-native.git
