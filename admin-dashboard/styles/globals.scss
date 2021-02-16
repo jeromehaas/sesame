@@ -1,0 +1,79 @@
+@import 'variables';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: $main-font !important;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  cursor: url('../public/media/graphics/cursor.svg') 6 6, auto !important;
+}
+
+*::selection {
+  background-color: rgba(232, 232, 232, 0.99);
+  color: $black;
+  opacity: 0.99;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  -webkit-appearance: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button-red {
+  margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid $light-grey;
+	font-size: $font-big;
+	padding: 5px 10px;
+	outline: none;
+  position: relative;
+  background-color: $red;
+  outline: none;
+  color: $white;
+}
+
+.button-white {
+  margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid $red;
+	font-size: $font-big;
+	padding: 5px 10px;
+	outline: none;
+  position: relative;
+  background-color: $white;
+  outline: none;
+  color: $red;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}

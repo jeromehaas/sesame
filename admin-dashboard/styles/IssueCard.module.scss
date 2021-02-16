@@ -1,0 +1,17 @@
+@import 'variables';
+
+
+.type {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+.createdOn {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+.reportedBy {
+  flex-grow: 1;
+  flex-basis: 200px;
+  cursor: pointer;
+}
+

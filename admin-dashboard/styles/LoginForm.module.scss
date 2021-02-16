@@ -1,0 +1,45 @@
+@import './variables';
+
+.form {
+	background-color: $white;
+	padding: 30px;
+	border-radius: 15px;
+	width: 600px;
+  border: 0.5px solid $light-grey;
+}
+
+.form table {
+	border-spacing: 10px;
+	width: 100%;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid $light-grey;
+	font-size: $font-big;
+	padding: 5px 10px;
+	outline: none;
+  position: relative;
+  background-color: $red;
+  outline: none;
+  color: $white;
+}
+
+.buttonRed {
+  width: 100%;
+  margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid $red;
+	font-size: $font-big;
+	padding: 5px 10px;
+	outline: none;
+  position: relative;
+  background-color: $red;
+  outline: none;
+  color: $white;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+

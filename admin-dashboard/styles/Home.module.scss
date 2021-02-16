@@ -1,0 +1,67 @@
+@import './variables';
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#spinner {
+	 width: 500px;
+}
+
+#spinnerAnimation {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin-right: 200px;
+  margin-top: -100px;
+}
+
+#spinnerAnimation i {
+  position: absolute;
+}
+
+#spinnerAnimation i img {
+  width: 600px;
+  height: 600px;
+}
+
+#spinner2 { 
+  animation: spin 80s infinite linear;
+}
+#spinner3 { 
+  animation: spin2 60s infinite linear;
+}
+#spinner4 { 
+  animation: spin3 120s infinite linear;
+}
+
+
+#teaser {
+	font-size: 60px;
+  max-width: 600px;
+  margin-left: 120px;
+}
+
+.highlight {
+	color: $red;
+  font-weight: 900;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+@keyframes spin2 {
+  from {transform:rotate(360deg);}
+  to {transform:rotate(0deg);}
+}
+@keyframes spin3 {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(-360deg);}
+}
+

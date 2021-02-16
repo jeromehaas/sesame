@@ -1,0 +1,23 @@
+@import 'variables';
+
+
+.firstname {
+  flex-grow: 1;
+  flex-basis: 100px;
+
+}
+.lastname {
+  flex-grow: 1;
+  flex-basis: 100px;
+
+}
+.email {
+  flex-grow: 2;
+  flex-basis: 200px;
+  cursor: pointer;
+}
+
+.group {
+  flex-grow: 1;
+  flex-basis: 200px;
+}

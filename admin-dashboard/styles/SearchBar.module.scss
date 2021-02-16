@@ -1,0 +1,46 @@
+@import 'variables';
+
+.searchbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.searchbar{
+    width:100%;
+    height: 100%;
+    background-color: $white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+
+    input {
+        border: none;
+        width:100%;
+        height: 100%;
+        border-radius: 15px;
+        outline:none;
+        caret-color: $light-grey;
+    }
+
+    .searchIcon {
+        width: 27px;
+        height: 27px;
+        display: inline;
+        margin: 0 20px;
+    }
+
+    .addButton {
+      padding: 0 20px;
+      border: none;
+      height: 100%; 
+      background-color: $white;
+      border-radius: 15px;
+      margin-left: 15px;
+    }
+    
+  }
